@@ -1,0 +1,16 @@
+.container{
+	max-width:1200px;	
+}
+header{
+	height: 200px;
+	background-size: auto;
+}
+.main{
+	flex-direction: row;
+}
+h1{
+    top: 122px;
+    left: 50px;
+	font-size: 2rem;
+}
+
