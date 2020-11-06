@@ -2,12 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1">	
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pounds to Euros</title>
-  <link rel="stylesheet" type="text/css" href="css/mobileFirst.css">
-  <link rel="stylesheet" type="text/css" media="only screen and (min-width:601px)" href="css/desktop.css">
-</head>
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
+  <link rel="stylesheet" media="only screen and (min-width:720px)" href="css/desktop.css">
 
+</head>
 <body>
   <div class="container">
     <header>
@@ -18,34 +18,34 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="exchangeRate.html">Exchange Calculator</a></li>
+          <li><a href="aboutUs.html">About Us</a></li>
         </ul>
       </nav>
-
       <div class="content">
         <h2>Convert Pounds to Euros</h2>
+        <section>
         <div>
           <form id="myForm">
             <p>
               <label for="pounds">Enter Pounds:</label>
               <input type="text" id="pounds">
             </p>
-            <p>
+            <p class="submitBtn">
               <input type="submit" value="Convert to Euros">
-            </p>
-            <p id="msg">
-
             </p>
           </form>
         </div>
+        <div>
+           <p id="msg"></p>
+        </div>
+        </section>
       </div>
     </div>
 
     <footer>
-      &copy; 2019 mustbebuilt
+      &copy; 2020 mustbebuilt
     </footer>
-
   </div>
-<script src="js/exchange.js"></script>  
+<script src="js/exchange.js"></script>
 </body>
-
 </html>
