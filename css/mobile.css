@@ -1,0 +1,120 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+#container {
+  width: 100%;
+}
+header,
+.content,
+footer {
+  padding: 0 15px;
+}
+header {
+  /* background-color: #263248; */
+  background-image: url("../images/top-banner-mobile.jpg");
+  height: 150px;
+  background-size: cover;
+}
+header h1 {
+  color: #fff;
+  text-decoration: none;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+nav {
+  background-color: #d58b53;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+
+nav ul li a {
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+}
+.currentPage {
+  background-color: #f9d3b4;
+}
+.currentPage a {
+  color: #000;
+}
+#myTestEvent {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  color: #000;
+  background-color: #1df500;
+}
+.colPicker {
+  background-color: #fff;
+  border: 1px dashed #ccc;
+  padding: 2px;
+  color: #000;
+}
+.colPicker:hover {
+  cursor: pointer;
+}
+.redBack {
+  background-color: #be1c26;
+}
+.greenBack {
+  background-color: #398d38;
+}
+.blueBack {
+  background-color: #163b59;
+  color: #fff;
+}
+.error {
+  color: #be1c26;
+  font-weight: bold;
+}
+#msg {
+  text-align: center;
+  font-size: 1.5rem;
+}
+form > div {
+  margin: 15px 0;
+}
+label {
+  display: block;
+}
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
+input[type="submit"] {
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+footer {
+  border-top: 1px solid #ccc;
+  margin: 20px 10px 10px 0;
+  padding-top: 10px;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}

@@ -1,16 +1,72 @@
-.container{
-	max-width:1200px;	
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
 }
-header{
-	height: 200px;
-	background-size: auto;
+.container {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
 }
-.main{
-	flex-direction: row;
+header {
+  background-image: url(../images/top-banner-desktop.jpg);
+  height: 300px;
+  padding-left: 0;
 }
-h1{
-    top: 122px;
-    left: 50px;
-	font-size: 2rem;
+header h1 {
+  color: #fff;
+  font-size: 4rem;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+  display: inline;
 }
-
+nav li a:hover {
+  color: #e8ff7f;
+  text-decoration: underline;
+}
+nav ul {
+  padding-left: 0;
+  flex-direction: row;
+}
+nav ul li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-left: 1px solid #000;
+}
+nav li:first-child {
+  border-left: none;
+}
+#myTestEvent:hover {
+  cursor: pointer;
+}
+section {
+  display: flex;
+}
+section > div > p {
+  margin-right: 20px;
+}
+#msg {
+  margin-left: 40px;
+}
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+.submitBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+label {
+  display: inline-block;
+  width: 120px;
+}
+input[type="text"] {
+  width: 150px;
+}
+input[type="submit"] {
+  width: 150px;
+  margin: 0;
+}
